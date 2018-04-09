@@ -1,6 +1,6 @@
 {% set name = "pyinstrument_cext" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "e5dce5836086ebcd5a5e5848f3329896ae36ffc583d7ad30d821b157b2fa56be" %}
+{% set version = "0.1.6" %}
+{% set sha256 = "fbfa21ced94d64dd468712ae3323c51bf57eda5f3354f5f7f9db713d66d99265" %}
 
 package:
   name: {{ name|lower }}
