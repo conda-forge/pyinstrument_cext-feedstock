@@ -14,14 +14,16 @@ A CPython extension supporting pyinstrument
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyinstrument_cext-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyinstrument_cext-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyinstrument_cext-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyinstrument_cext-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyinstrument_cext-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyinstrument-cext-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pyinstrument_cext-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pyinstrument_cext-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pyinstrument_cext-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pyinstrument_cext-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pyinstrument_cext-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pyinstrument-cext-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyinstrument_cext/badges/version.svg)](https://anaconda.org/conda-forge/pyinstrument_cext)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyinstrument_cext/badges/downloads.svg)](https://anaconda.org/conda-forge/pyinstrument_cext)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyinstrument_cext-green.svg)](https://anaconda.org/conda-forge/pyinstrument_cext) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyinstrument_cext.svg)](https://anaconda.org/conda-forge/pyinstrument_cext) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyinstrument_cext.svg)](https://anaconda.org/conda-forge/pyinstrument_cext) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyinstrument_cext.svg)](https://anaconda.org/conda-forge/pyinstrument_cext) |
 
 Installing pyinstrument_cext
 ============================
