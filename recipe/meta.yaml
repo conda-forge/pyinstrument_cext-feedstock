@@ -1,6 +1,6 @@
 {% set name = "pyinstrument_cext" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "af1a17afb682347702693557c3d37840c0daa410f631a9678699da09c0a7c4b6" %}
+{% set version = "0.2.2" %}
+{% set sha256 = "f29e25f71d74c0415ca9310e5567fff0f5d29f4240a09a885abf8b0eed71cc5b" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
