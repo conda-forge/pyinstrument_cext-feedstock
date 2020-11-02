@@ -1,6 +1,6 @@
 {% set name = "pyinstrument_cext" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "f29e25f71d74c0415ca9310e5567fff0f5d29f4240a09a885abf8b0eed71cc5b" %}
+{% set version = "0.2.3" %}
+{% set sha256 = "cffce005783ad40613c669131bf192cb217803afe514544ca7f4b928be3e24f2" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -33,8 +33,8 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'A CPython extension supporting pyinstrument'
-  description: 'A CPython extension supporting pyinstrument'
+  summary: A CPython extension supporting pyinstrument
+  description: A CPython extension supporting pyinstrument
   dev_url: https://github.com/joerick/pyinstrument_cext
 
 extra:
